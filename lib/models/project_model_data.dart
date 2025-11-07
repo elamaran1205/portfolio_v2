@@ -16,6 +16,18 @@ class ProjectModel {
 
 final List<ProjectModel> projects = [
   ProjectModel(
+    title: "Cipher Vault - Password Manager (Academic Project)",
+    description:
+        "Cipher Vault is a secure password manager app created using Flutter and Firebase. It lets users safely store and manage their passwords with biometric protection and encryption, ensuring only you can access your credentials.",
+    imagePaths: [
+      "assets/img/project3img1.png",
+      "assets/img/project3img2.png",
+      "assets/img/project3img3.png",
+    ],
+    techStack: ["Flutter", "FireBase", "Encryption - Decryption", "Get X"],
+    githubUrl: "https://github.com/elamaran1205/password_manager.git",
+  ),
+  ProjectModel(
     title: "Weather Forecasting Application (Internship Project)",
     description:
         "A Flutter-based weather app built with a clean dark-light theme system. "

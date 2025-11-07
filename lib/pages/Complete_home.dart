@@ -86,8 +86,7 @@ class _CompleteHomeState extends State<CompleteHome> {
         ),
         const SizedBox(height: 16),
         Text(
-          "I'm a final-year student working with Flutter to build modern apps and\n"
-          "learning Python to strengthen my backend and DSA skills.",
+          "I'm a final-year Computer Applications student building modern apps with Flutter and learning Python to strengthen my backend and DSA skills",
           style: AppTextStyles.body.copyWith(
             fontSize: isMobile ? 16 : 18,
             color: AppColors.textSecondary,
