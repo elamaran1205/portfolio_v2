@@ -86,7 +86,7 @@ class _CompleteHomeState extends State<CompleteHome> {
         ),
         const SizedBox(height: 16),
         Text(
-          "I'm a final-year Computer Applications student building modern apps with Flutter and learning Python to strengthen my backend and DSA skills",
+          "Final-year Computer Applications student with solid understanding of core programming concepts in Java and Python.Hands-on experience in real software environments through Flutter development internship and project work.",
           style: AppTextStyles.body.copyWith(
             fontSize: isMobile ? 16 : 18,
             color: AppColors.textSecondary,
@@ -109,7 +109,7 @@ class _CompleteHomeState extends State<CompleteHome> {
           child: InkWell(
             onTap: () {
               const url =
-                  "https://drive.google.com/file/d/192_jIhgFzzbqIdeAM_-lxIqBlxLd8KZu/view?usp=sharing";
+                  "https://drive.google.com/file/d/1obv7wGlpm8yB7Az7oNN14AJD7-_zBuvW/view?usp=sharing";
               launchUrl(Uri.parse(url));
             },
             borderRadius: BorderRadius.circular(12),

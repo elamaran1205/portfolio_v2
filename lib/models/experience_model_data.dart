@@ -30,7 +30,7 @@ List<WorkExperienceModel> workExperienceList = [
     companyName: " Paritripti Jewels Private Limited",
     role: "Flutter Developer",
     description:
-        "A Paid internship through Internshala, where I developing a complete multi-role food delivery application featuring client, seller, and admin modules. Implemented core functionalities such as real-time order management, product listings, and authentication. Used GetX for efficient state management and integrated REST APIs for smooth client-server communication",
+        "A Paid internship through Internshala, where I developed a complete multi-role food delivery application featuring client, seller, and admin modules. Implemented core functionalities such as real-time order management, product listings, and authentication. Used GetX for efficient state management and integrated REST APIs for smooth client-server communication",
     duration: "20 August 2025 - 20 November 2025",
     logoPath: "assets/img2/par.png",
     link: "https://internshala.com/company/paritripti-1653892583/",
