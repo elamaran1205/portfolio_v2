@@ -38,10 +38,13 @@ class _CompleteHomeState extends State<CompleteHome> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Icon(
-                              Icons.person,
-                              size: 150,
-                              color: AppColors.textPrimary,
+                            CircleAvatar(
+                              radius: 105,
+                              backgroundColor: AppColors.amber,
+                              child: CircleAvatar(
+                                radius: 100,
+                                backgroundImage: AssetImage("assets/img.jpeg"),
+                              ),
                             ),
                             const SizedBox(height: 30),
                             textSection(isMobile),
@@ -52,11 +55,14 @@ class _CompleteHomeState extends State<CompleteHome> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Expanded(child: textSection(isMobile)),
-                            const SizedBox(width: 80),
-                            Icon(
-                              Icons.person,
-                              size: 200,
-                              color: AppColors.textPrimary,
+                            const SizedBox(width: 30),
+                            CircleAvatar(
+                              radius: 105,
+                              backgroundColor: AppColors.amber,
+                              child: CircleAvatar(
+                                radius: 100,
+                                backgroundImage: AssetImage("assets/img.jpeg"),
+                              ),
                             ),
                           ],
                         ),
@@ -109,7 +115,7 @@ class _CompleteHomeState extends State<CompleteHome> {
           child: InkWell(
             onTap: () {
               const url =
-                  "https://drive.google.com/file/d/1obv7wGlpm8yB7Az7oNN14AJD7-_zBuvW/view?usp=sharing";
+                  "https://drive.google.com/file/d/1tcTj3eC3DiXEvWDSB__7CduxfsxvlKpw/view?usp=sharing";
               launchUrl(Uri.parse(url));
             },
             borderRadius: BorderRadius.circular(12),

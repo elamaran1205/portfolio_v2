@@ -45,8 +45,8 @@ class ContactPage extends StatelessWidget {
                   children: [
                     contactItem(
                       Icons.email_rounded,
-                      "elamaran1122@email.com",
-                      "mailto:elamaran1122@gmail.com",
+                      "elamaran.work@email.com",
+                      "mailto:elamaran.work@gmail.com",
                     ),
                     contactItem(
                       Icons.link,
