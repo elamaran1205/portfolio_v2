@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:personal_portfolio/pages/Complete_home.dart';
 import 'package:personal_portfolio/pages/contact_page.dart';
 import 'package:personal_portfolio/pages/projects_section.dart';
+import 'package:personal_portfolio/pages/skills_page.dart';
 import 'package:personal_portfolio/pages/work_experience.dart';
 import 'package:personal_portfolio/utils/hover_effect.dart';
 
@@ -49,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(width: 40),
                   tabitem(
                     Icons.work,
-                    "Projects",
+                    "Skills",
                     () {
                       setState(() {
                         indexvalue = 2;
@@ -59,8 +60,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                   const SizedBox(width: 40),
                   tabitem(
-                    Icons.person,
-                    "Experience",
+                    Icons.work,
+                    "Projects",
                     () {
                       setState(() {
                         indexvalue = 3;
@@ -70,14 +71,25 @@ class _HomePageState extends State<HomePage> {
                   ),
                   const SizedBox(width: 40),
                   tabitem(
-                    Icons.mail,
-                    "Contact",
+                    Icons.person,
+                    "Experience",
                     () {
                       setState(() {
                         indexvalue = 4;
                       });
                     },
                     indexvalue == 4 ? AppColors.amber : Colors.transparent,
+                  ),
+                  const SizedBox(width: 40),
+                  tabitem(
+                    Icons.mail,
+                    "Contact",
+                    () {
+                      setState(() {
+                        indexvalue = 5;
+                      });
+                    },
+                    indexvalue == 5 ? AppColors.amber : Colors.transparent,
                   ),
                   const SizedBox(width: 20),
                 ],
@@ -97,10 +109,12 @@ Widget getcurrentsection(int indexvalue) {
     case 1:
       return CompleteHome();
     case 2:
-      return ProjectsSection();
+      return Skills();
     case 3:
-      return WorkExperience();
+      return ProjectsSection();
     case 4:
+      return WorkExperience();
+    case 5:
       return ContactPage();
     default:
       return Text("Default");
