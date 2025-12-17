@@ -66,7 +66,7 @@ class _SkillsState extends State<Skills> {
                   "Generative AI Fundamentals (Theory)",
                   "",
                   "▸ Has theoretical knowledge of AI, Machine Learning, and Deep Learning\n"
-                      "▸ Understands basic ideas behind Neural Networks and LLMs\n"
+                      "▸ Neural Networks and LLMs\n"
                       "▸ Knows theory concepts of Embeddings, Vectors, Vector Databases, and RAG",
                 ),
                 skillContainer(
@@ -114,7 +114,7 @@ class _SkillsState extends State<Skills> {
           Text(
             dName,
             style: AppTextStyles.heading2.copyWith(
-              fontSize: 20,
+              fontSize: 17,
               color: AppColors.amber,
             ),
           ),

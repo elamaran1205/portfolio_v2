@@ -65,7 +65,7 @@ class _ProjectsSectionState extends State<ProjectsSection> {
                                 project.title,
                                 style: AppTextStyles.heading1.copyWith(
                                   color: AppColors.amber,
-                                  fontSize: isMobile ? 24 : 28,
+                                  fontSize: isMobile ? 18 : 20,
                                 ),
                                 textAlign: isMobile
                                     ? TextAlign.center

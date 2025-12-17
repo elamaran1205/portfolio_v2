@@ -71,7 +71,7 @@ class _WorkExperienceState extends State<WorkExperience> {
                                       "${work.companyName} - ${work.role}",
                                       style: AppTextStyles.heading1.copyWith(
                                         color: AppColors.amber,
-                                        fontSize: 22,
+                                        fontSize: 16,
                                       ),
                                       textAlign: TextAlign.center,
                                     ),
@@ -110,7 +110,7 @@ class _WorkExperienceState extends State<WorkExperience> {
                                             style: AppTextStyles.heading1
                                                 .copyWith(
                                                   color: AppColors.amber,
-                                                  fontSize: 25,
+                                                  fontSize: 18,
                                                 ),
                                           ),
                                           const SizedBox(height: 8),
